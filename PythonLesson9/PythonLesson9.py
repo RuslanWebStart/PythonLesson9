@@ -8,7 +8,8 @@ n = int(input('Введите количество чисел (1 ≤ N ≤ 10000
 numberList = list(map(int, input('Введите числа через пробел, каждое не превышает 2*10e9 по модулю ').split()))[:n]
 
 numberSet = set(numberList)
-print('Ответ ', len(numberList) - len(numberSet))
+
+print('Ответ ', len(numberSet))
 
 
 # Задача 2 
@@ -36,3 +37,4 @@ for num in nList:
         print('No')
     else:
         print('Yes')
+
